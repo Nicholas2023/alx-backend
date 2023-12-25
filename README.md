@@ -1,4 +1,4 @@
-# Backend Repository :wink:
+# Backend Repository :smile:
 
 Welcome to the backend repository for alx-backend. This repository contains the backend codebase for backend coding practice at alx.
 
