@@ -22,7 +22,7 @@ class FIFOCache(BaseCaching):
         Add an item in the cache
         """
         if key is not None and item is not None:
-            if len(self.cache_data) > self.MAX_ITEMS:
+            if len(self.cache_data) >= self.MAX_ITEMS:
                 discarded_key = self.queue.pop(0)
                 del self.cache_data[discarded_key]
                 print("DISCARD:", discarded_key)
